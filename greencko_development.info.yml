@@ -1,0 +1,21 @@
+name: 'Greencko Development'
+description: 'Development Configuration, Only useful if you want to develop for Greencko.'
+type: module
+core: 8.x
+version: 8.x-6.x-dev
+package: Greencko
+dependencies:
+  - browsersync
+  - config_split
+  - config_update_ui
+  - dblog
+  - devel
+  - features_ui
+  - libraries_ui
+  - l10n_client_contributor
+  - l10n_client_ui
+  - views_ui
+  - tour_ui
+  - tour_builder
+  - varbase_development
+
